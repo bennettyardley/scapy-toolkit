@@ -2,7 +2,7 @@ from scapy.all import *
 import logging
 
 
-logging.getLogger(".runtime").setLevel(logging.ERROR)
+logging.getLogger("scapy.runtime").setLevel(logging.ERROR)
 
 addr = "192.168.1."
 
