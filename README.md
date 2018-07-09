@@ -6,3 +6,6 @@ Sends ICMP (ping) packets to 255 addresses and waits for a response to test if a
 
 ## arpscan.py
 Broadcasts an ARP packet to the network and monitors for responses to test if a host is online.
+
+## scanner.py
+An all in one scanner
