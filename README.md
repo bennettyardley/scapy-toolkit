@@ -11,4 +11,4 @@ Broadcasts an ARP packet to the network and monitors for responses to test if a 
 An all in one scanner
 
 ## dos.py
-A work in progress SYN flood program to overflow a machine
+A work in progress  flood program to overflow a machine
