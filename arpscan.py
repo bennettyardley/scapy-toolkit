@@ -31,6 +31,6 @@ for item in macList:
     macLookup(item)
 
 #Print the data
- snd,rcv in ans:
+for snd,rcv in ans:
     print("IP Address: " + rcv.sprintf(r"%ARP.psrc%") + " MAC Address: " + rcv.sprintf(r"%Ether.src%") + " " + vendorList[i])
     i = i + 1
