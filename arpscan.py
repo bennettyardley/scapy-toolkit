@@ -22,7 +22,7 @@ def macLookup(macAddr):
     site = "http://macvendors.co/api/"
     request = urllib2.Request(site+macAddr, headers={'User-Agent' : "API Browser"})
     response = urllib2.urlopen(request)
-    reader = codecs.getreader("utf-8")
+     = codecs.getreader("utf-8")
     obj = json.load(reader(response))
     vendorList.append((obj['result']['company']))
 
