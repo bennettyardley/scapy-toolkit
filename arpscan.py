@@ -1,6 +1,6 @@
 from scapy.all import *
 import urllib.request as urllib2
-import 
+import json
 import codecs
 
 #Initalize some variables
