@@ -1,7 +1,7 @@
 from scapy.all import *
 import urllib.request as urllib2
 import json
-import codecs
+import 
 
 #Initalize some variables
 macList = []
