@@ -1,4 +1,4 @@
-from .all import *
+from scapy.all import *
 
 hostname = input("Enter hostname or IP for traceroute: ")
 
