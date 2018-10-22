@@ -9,7 +9,7 @@ vendorList = []
 i = 0
 
 #Send an ARP request to every device on the IP Range
-iprange = "192.168.1.1/24"
+ = "192.168.1.1/24"
 ans,unans=srp(Ether(dst="ff:ff:ff:ff:ff:ff")/ARP(pdst=iprange),
               timeout=2)
 
