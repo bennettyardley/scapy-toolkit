@@ -1,6 +1,6 @@
 from scapy.all import *
 
- = input("Enter hostname or IP for traceroute: ")
+hostname = input("Enter hostname or IP for traceroute: ")
 
 for i in range(1, 30):
     packet = IP(dst=hostname, ttl=i) / UDP(dport=33434)
