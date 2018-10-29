@@ -7,7 +7,7 @@ for i in range(1, 30):
     response = sr1(packet, verbose=0)
     if response is None:
         break
-     response.type == 3:
+    elif response.type == 3:
         print ("Final Hop " + response.src)
         break
     else:
