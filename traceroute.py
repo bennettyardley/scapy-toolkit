@@ -10,5 +10,5 @@ for i in range(1, 30):
     elif response.type == 3:
         print ("Final Hop " + response.src)
         break
-    :
+    else:
         print (str(i) + " " + response.src)
