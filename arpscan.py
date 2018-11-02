@@ -4,7 +4,7 @@ import json
 import codecs
 
 #Initalize some variables
-macList = []
+ = []
 vendorList = []
 i = 0
 
