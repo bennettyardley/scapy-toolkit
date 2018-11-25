@@ -1,4 +1,4 @@
-from scapy.all import *
+ scapy.all import *
 import urllib.request as urllib2
 import json
 import codecs
