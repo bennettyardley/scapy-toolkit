@@ -4,9 +4,7 @@ import json
 import codecs
 
 #Initalize some variables
-macList = []
-vendorList = []
-i = 0
+
 
 #Send an ARP request to every device on the IP Range
 iprange = "192.168.1.1/24"
